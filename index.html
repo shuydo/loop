@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <!-- integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Loop</title>
+  </head>
+
+  <body>
+    <div class="page-light">
+      <div class="wrapper">
+        <header class="header">
+          <nav>
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Для мужчин</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Для женщин</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Для детей</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="logo">
+            <!-- <img src="img/logo.svg" alt="Logo" /> -->
+            <svg><use href="img/sprite.svg#logo" /></svg>
+            <span>THE LOOP</span>
+          </div>
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href="#"> Оплата</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"> Доставка</a></li>
+          </ul>
+
+          <div class="cart">
+            <svg class="cart-label">
+              <use href="./img/sprite.svg#label"></use>
+            </svg>
+            <span class="cart-count">5</span>
+          </div>
+        </header>
+      </div>
+    </div>
+
+    <div class="page page-light">
+      <div class="wrapper">
+        <div class="main">
+          <div class="main-item sale">
+            <p class="sale-description">Зимняя распродажа</p>
+            <h1 class="sale-title">СКИДКИ ДО 90%</h1>
+            <a href="#" class="btn">Смотреть модели</a>
+          </div>
+
+          <div class="main-item box">
+            <div class="box-price">
+              <strike class="box-price_old">3999 грн</strike>
+              <p class="box-price_new">800 грн</p>
+            </div>
+            <img class="box-image" src="img/shoes.png" alt="Shoes" />
+            <!-- <img class="box-image" src="img/shoe.webp" alt="Shoes" /> -->
+            <!-- <img src="img/shoe.jfif" alt=""> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page page-dark notice">
+      <div class="wrapper">
+        <!-- conj? -->
+        <h1 class="notice-title">
+          <span>Бесплатная доставка</span> от 1200 грн
+        </h1>
+        <p class="notice-description">Сделайте заказ и получите подарок!</p>
+      </div>
+    </div>
+
+    <div class="page-light">
+      <div class="wrapper">
+        <div class="collection">
+          <div class="collection-item collection-man">
+            <h2 class="collection-title">Мужская коллекция</h2>
+            <p class="collection-description">Обувь, полуверы, костюмы</p>
+            <a class="btn btn-xs" href="#">
+              <svg><use href="img/sprite.svg#arrow" /></svg>
+              <!-- <img src="img/arrow.svg" alt="Arrow" /> -->
+            </a>
+          </div>
+
+          <div class="collection-item collection-woman">
+            <h2 class="collection-title">Женская коллекция</h2>
+            <p class="collection-description">Обувь, полуверы, костюмы</p>
+            <a class="btn btn-xs" href="#">
+              <svg><use href="img/sprite.svg#arrow" /></svg>
+              <!-- <img src="img/arrow.svg" alt="Arrow" /> -->
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="wrapper">
+        <h2 class="title-h2">Новые модели</h2>
+
+        <div class="product">
+          <div class="product-item">
+            <img src="img/dress.png" alt="Prod01" />
+            <p class="product-title">Коктейльное <br />платье</p>
+            <p class="product-price">16 000 грн</p>
+          </div>
+
+          <div class="product-item">
+            <img src="img/shirt.jpg" alt="Prod02" />
+            <p class="product-title">Футболка <br />синяя</p>
+            <p class="product-price">4 000 грн</p>
+          </div>
+
+          <div class="product-item">
+            <img src="img/dress.png" alt="Prod01" />
+            <p class="product-title">Коктейльное <br />платье</p>
+            <p class="product-price">16 000 грн</p>
+          </div>
+
+          <div class="product-item">
+            <img src="img/shirt.jpg" alt="Prod02" />
+            <p class="product-title">Футболка <br />синяя</p>
+            <p class="product-price">4 000 грн</p>
+          </div>
+        </div>
+        <a href="#" class="btn btn-center">
+          <span>Все модели</span>
+          <svg><use href="img/sprite.svg#arrow" /></svg>
+          <!-- <img src="img/arrow.svg" alt="Arrow" /> -->
+        </a>
+      </div>
+    </div>
+
+    <div class="page-dark">
+      <div class="wrapper">
+        <footer class="footer">
+          <div class="footer-logo">
+            <svg><use href="img/sprite.svg#logo" /></svg>
+
+            <!-- <img src="img/logo.svg" alt="" /> -->
+            <span>THE LOOP</span>
+          </div>
+
+          <div class="footer-nav">
+            <ul class="footer-list">
+              <li class="footer-list-item footer-list-title">
+                Основные ссылки
+              </li>
+
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">О компании</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Каталог</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Доставка</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Оплата</a>
+              </li>
+            </ul>
+
+            <ul class="footer-list">
+              <li class="footer-list-item footer-list-title">Категории</li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Мужская одежда</a>
+              </li>
+
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Женская одежда</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Детская одежда</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Для животных</a>
+              </li>
+            </ul>
+
+            <ul class="footer-list">
+              <li class="footer-list-item footer-list-title">
+                Полезные ссылки
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Таблица размеров</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Блог о моде</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Наша миссия</a>
+              </li>
+            </ul>
+
+            <ul class="footer-list">
+              <li class="footer-list-item footer-list-title">Соц сети</li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">
+                  <svg class="vk"><use href="./img/sprite.svg#vk" /></svg>
+                  <span>VC.com</span>
+                </a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">
+                  <svg class="fb"><use href="img/sprite.svg#facebook" /></svg>
+                  <span>Facebook</span>
+                </a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">
+                  <svg class="insta">
+                    <use href="img/sprite.svg#instagram" />
+                  </svg>
+                  <span>Instagram</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
